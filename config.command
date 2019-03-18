@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/workspace/rust-guessing-game/
 
 LOOP_LIMIT=$((RANDOM%=100))
 
