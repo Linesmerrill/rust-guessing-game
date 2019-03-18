@@ -2,11 +2,11 @@
 
 LOOP_LIMIT=$((RANDOM%=100))
 
-for (( num=$((RANDOM%=100)); num <= 100; num++ ))
+for (( num=$((RANDOM%=100)); num <= 150; num++ ))
 do
-  echo $i >> config.txt
+  echo $num >> config.txt
   git add .
-  git commit -m "new update-$i"
+  git commit -m "new update-$num"
   git push
 done
 
