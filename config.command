@@ -10,7 +10,7 @@ do
   echo $num >> config.txt
   git add .
   git commit -m "new update-$num"
-  git push -u feature/update-$num
+  git push -u origin feature/update-$num
   git checkout master
   git merge feature/update-$num
   git push
