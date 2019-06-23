@@ -13,8 +13,7 @@ do
   git push -u origin feature/update-$num
   git checkout master
   git merge feature/update-$num
-  git branch -D feature/update-$num
   git push
-  git branch -D feature/update-$num
+  git push origin :feature/update-$num
 done
 
