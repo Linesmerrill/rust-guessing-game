@@ -14,5 +14,6 @@ do
   git checkout master
   git merge feature/update-$num
   git push
+  git branch -D feature/update-$num
 done
 
