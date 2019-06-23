@@ -15,5 +15,6 @@ do
   git merge feature/update-$num
   git branch -D feature/update-$num
   git push
+  git branch -D feature/update-$num
 done
 
